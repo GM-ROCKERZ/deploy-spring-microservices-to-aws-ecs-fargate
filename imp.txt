@@ -1,0 +1,16 @@
+RDS_HOSTNAME
+RDS_PORT:3306
+RDS_DB_NAME:exchange_db
+RDS_USERNAME:exchange_db_user
+RDS_PASSWORD:GplMishra
+
+RDS default==>sg-0e4a44c9e56fe5fde
+
+Task: sg-0852821be01e95605
+
+
+micro services:
+
+gpl3194/aws-currency-exchange-service-h2:0.0.1-SNAPSHOT
+
+gpl3194/aws-currency-conversion-service:0.0.1-SNAPSHOT
